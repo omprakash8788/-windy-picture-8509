@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="./styles/home.css">
 </head>
 <body>
     
@@ -68,7 +67,7 @@
             <div>
                 <img src="./Images/fav.png" alt="" id="open-fav-page" onclick = "window.location.href = './login.html'">
                 <img src="./Images/profile.png" alt="" onmouseover = "profileDropdown()" onmouseout="profileDropdownclose()">
-                <img src="./Images/cart.png" alt="" id="open-cart-page" onclick = "window.location.href = './login.html'">
+                <img src="./Images/cart.png" alt="" id="open-cart-page" onclick = "window.location.href = './card.html'">
             </div>
         </nav>
 
@@ -96,11 +95,16 @@
         </div>
 
 
-
         <!-- -------------------------------------------Dropdwon Navbar --------------------------------------------- -->
 
 
-        <hr>
+        <div id="go-to-products-page">
+            <button class="go-to-products-btn" onclick="window.location.href = './primer.html'">Primer</button>
+            <button class="go-to-products-btn" onclick="window.location.href = './shampoo.html'">Shampoo</button>
+            <button class="go-to-products-btn" onclick="window.location.href = './adminLoginPage.html'">ADMIN</button>
+        </div>
+
+        <!-- <hr>
 
         <div id="categories">
             <p id="mybt"><i class="fas fa-bars"></i>SHOP CATEGORIES</p>
@@ -111,30 +115,29 @@
             <p class="head">SPLURGE</p>
             <p class="head">MEGAZINE</p>
             <p class="head">ELITE OFFERS</p>    
-        </div>
+        </div> -->
     
-        <hr>
     
         <!-- The Modal -->
-        <div id="mymode" class="model">
+        <!-- <div id="mymode" class="model"> -->
     
             <!-- Modal content -->
-            <div id="content">
-                <span class="close1">&times;</span>
+            <!-- <div id="content">
+                <span class="close1">&times;</span> -->
     
-                <div id="reg">
-                    <p class="line">Fragance</p>
+                <!-- <div id="reg">
+                    <p class="line">Fragance</p> -->
                     <!-- <p>Fragance</p> -->
-                    <p>MakeUp</p>
+                    <!-- <p>MakeUp</p>
                     <p>Skin Care</p>
                     <p>Hair care</p>
-                    <p>Appliance</p>
+                    <p>Appliance</p> -->
                     <!-- <p>Personal Care</p> -->
-                    <p>Mom & Baby</p>
-                </div>
+                    <!-- <p>Mom & Baby</p>
+                </div> -->
     
     
-                <div id="sub">
+                <!-- <div id="sub">
                     <div id="sub-categories">
                         <h4>FRAGRANCE FOR WOMEN 7</h4>
                         <a href="perfumes_women.html">Perfumes</a>
@@ -149,11 +152,11 @@
                         <a href="deodarants_men.html">Deodrants & Roll-ons</a>
                         <a href="colognes.html">Colognes</a>
                         <a href="aftershaves.html">Aftershave</a>
-                    </div>
+                    </div> -->
     
-                </div>
-            </div>
-        </div>
+                <!-- </div>
+            </div> -->
+        <!-- </div> -->
 
 
         <!-- ------------------------------------------Main Content Area --------------------------------------------------------->

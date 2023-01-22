@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="shampoo.css">
+    <link rel="stylesheet" href="./styles/shampoo.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 <body>
@@ -135,12 +135,14 @@ function getCard(id,title,imageURL,cost){
     <div class="card-body">
     <h3 class="card-item card-title">${title}</h3>
     <div class="card-item card-additional-info">${cost}</div>
-    <button class="card_addtocart">Add To Cart</button>
+    <button class="card_addtocart" id = "add-to-cart">Add To Cart</button>
     </div>
     </div>
     `;
     return card
 }
+
+let addToCart = document.getElementById("add-to-cart");
 
 
 // ---------------------SEARCH--------------------------

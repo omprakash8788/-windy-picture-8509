@@ -927,6 +927,34 @@ ul{
 }
 
 
+
+
+
+
+
+/* ---------------------------------Products button ------------------------------- */
+#go-to-products-page{
+    width: 400px;
+    margin-left: 40%;
+    margin-top: -280px;
+    margin-bottom: 30px;
+}
+.go-to-products-btn{
+    width: 30%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+.go-to-products-btn:hover{
+    border-bottom:3px solid #ff147b;
+    cursor: pointer;
+    color: #ff147b;
+    
+}
+
 /*------------media query-------------*/
 
 
