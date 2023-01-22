@@ -729,8 +729,11 @@
 
 /* ----------------------------------------------------- Footer -------------------------------------------------- */
 
-#footer-content{
-    margin-top: 9150px;
+/* #footer-content{
+    margin-top: 7250px;
+} */
+.footer{
+    margin-top: 8100px;
     /* position: absolute; */
 }
 *{
