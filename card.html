@@ -188,11 +188,13 @@ h3{
 <script>
 
      let card_data = JSON.parse(localStorage.getItem("cart-list"));
+     console.log("cart-list", card_data);
 
     let data_div = document.getElementById("data");
+
      var total = 0;
-    var totalitem =0;
-    card_data.forEach(function (product) {
+    var totalitem = 0 ;
+    card_data.forEach( product => {
        
         let div = document.createElement("div");
 
@@ -211,16 +213,17 @@ h3{
 
         image.src = product.image;
 
-        p_name.append(p_price);
+        // p_name.append(p_price);
         
-        div.append(image, p_name);
+        div.append(image, p_name, p_price);
 
         data_div.append(div);
+
+
         var out = product.price;
-        var x = out.replace("₹","0")
-         total = total + Number(x);
+         total = total + Number(out);
          console.log(total);
-         totalitem = totalitem+Number(1);
+         totalitem += totalitem+Number(1);
     });
 
 

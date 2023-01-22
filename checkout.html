@@ -160,19 +160,28 @@
 
 <script>
 
-	let card_data = JSON.parse(localStorage.getItem("card"));
-	
+let card_data = JSON.parse(localStorage.getItem("cart-list"));
 
-	var total = 0;
-	var totalitem = 0;
+var total = 0;
+var totalitem = 0;
+if (card_data == null) {
+	card_data = [];
+} else {
+	for (let i = 0; i < card_data.length; i++) {
+		// console.log(card_data[i].price);
+		let out = card_data[i].price;
+		total += total + Number(out);
+		totalitem += totalitem + Number(1);
+	}
+}
 
-	card_data.forEach(function (product) {
-		var out = product.price;
-		var x = out.replace("₹", "0")
-		total = total + Number(x);
+var total_h1 = document.getElementById("rupee");
 
-		totalitem = totalitem + Number(1);
-	});
+if (total_h1) {
+
+	total_h1.innerHTML = "₹" + total;
+
+}
 
 	var btn = document.getElementById('bt');
 	//btn.addEventListener('click',makepay);
@@ -209,9 +218,13 @@
 			var src = document.getElementById("gif");
 			src.appendChild(img)
 
+
+			card_data = [];
+			localStorage.setItem("cart-list", JSON.stringify(card_data));
+
 			setTimeout(function () {
 				window.location.href="Order.html";
-			}, 4000);
+			}, 2000);
 		}
     
    
