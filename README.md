@@ -50,19 +50,25 @@ Demo
 
 
 Getting Started
+
 This project was built using HTML5, CSS3, JavaScript, Rest API. It is an e-commerce products based web application and for running on your local environment you should follow these guidelines.
 
 Setup
+
 The project repository can be found in GitHub or just clone the project using this command.
+
 Using HTTPS
 
 # git clone 
+
 https://github.com/omprakash8788/-windy-picture-8509
 
 Install
+
 To run the application open index.html in the live server.
 
 Tools used on this project
+
 Visual Studio Code
 
 Show your support
