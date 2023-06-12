@@ -1,9 +1,9 @@
 
 It's an E-commerce web application with all the major functionalities
 
-html 
-css3 
-JavaScript 
+html,
+css3,
+JavaScript,
 restAPI
 
 Want to see live preview https://violetbeaute.netlify.app/
@@ -15,23 +15,23 @@ Violet Beaute is an e-commerce web application. It has a variety of categories, 
 
 Screens ( Shampoo, Primer screens are responsive)
 
-Homepage
-Shampoo and Primer page with Sorting Filters Search
-Cart page
-Payment page
-Admin Panel
-Signup, Login / Logout
+Homepage,
+ Shampoo and Primer page with Sorting Filters Search,
+ Cart page,
+ Payment page,
+ Admin Panel,
+ Signup, Login / Logout
 
 
 🚀 Features
 
-Signup, Login User Account
-Login Admin Account
-Products Sorting Based on Price 
-Products Search
-Cart Add
-Shipping Address
-Payment gatway
+Signup, Login User Account,
+ Login Admin Account,
+ Products Sorting Based on Price,
+ Products Search,
+ Cart Add,
+ Shipping Address,
+ Payment gatway,
 
 
 Glimpses of Violet Beaute 🙈 :
@@ -50,25 +50,19 @@ Demo
 
 
 Getting Started
-
 This project was built using HTML5, CSS3, JavaScript, Rest API. It is an e-commerce products based web application and for running on your local environment you should follow these guidelines.
 
 Setup
-
 The project repository can be found in GitHub or just clone the project using this command.
-
 Using HTTPS
 
 # git clone 
-
 https://github.com/omprakash8788/-windy-picture-8509
 
 Install
-
 To run the application open index.html in the live server.
 
 Tools used on this project
-
 Visual Studio Code
 
 Show your support
