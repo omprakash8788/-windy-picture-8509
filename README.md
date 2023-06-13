@@ -13,7 +13,7 @@ Violet Beaute is an e-commerce product-based web application. It has a variety o
 ![Screenshot (1872)](https://github.com/omprakash8788/-windy-picture-8509/assets/73363392/afd32d66-2e47-482a-b3a8-91db79e8774d)
 
 
-# Screens ( Shampoo, Primer screens are responsive)
+## Screens ( Shampoo, Primer screens are responsive)
 
 - Homepage
 - Shampoo and Primer page with Sorting Filters Search
@@ -23,7 +23,7 @@ Violet Beaute is an e-commerce product-based web application. It has a variety o
 - Signup, Login / Logout
 
 
-🚀## Features
+## Features
 
 - Signup, Login User Account,
 - Login Admin Account,
@@ -55,23 +55,23 @@ https://drive.google.com/file/d/1oGo9dwNuxuz3pGu0vDlvLlpc3lI969tY/view?usp=shari
 
 This project was built using HTML5, CSS3, JavaScript, Rest API. It is an e-commerce products based web application and for running on your local environment you should follow these guidelines.
 
-# Setup
+## Setup
 
 The project repository can be found in GitHub or just clone the project using this command.
 
 Using HTTPS
 
-# git clone 
+## git clone 
 
 https://github.com/omprakash8788/-windy-picture-8509
 
-# Install
+## Install
 
 To run the application open index.html in the live server.
 
-# Tools used on this project
+## Tools used on this project
 
 Visual Studio Code
 
-# Show your support
-# Give a ⭐️ if you like this project!
+## Show your support
+## Give a ⭐️ if you like this project!
