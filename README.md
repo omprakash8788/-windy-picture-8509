@@ -1,5 +1,5 @@
 
-It's an E-commerce web application with all the major functionalities
+It's an E-commerce shopping web application with all the major functionalities
 
 html,
 css3,
@@ -8,7 +8,7 @@ restAPI
 
 Want to see live preview https://violetbeaute.netlify.app/
 
-Violet Beaute is an e-commerce web application. It has a variety of categories, just visit the products listing page, trending primer page or shampoo page and you will see all the products available, apply sorting, filter and search as per your need and in just a few clicks you can order products from the website.
+Violet Beaute is an e-commerce product-based web application. It has a variety of categories, just visit the products listing page, trending primer page or shampoo page and you will see all the products available, apply sorting, filter and search as per your need and in just a few clicks you can order products from the website.
 
 ![Screenshot (1872)](https://github.com/omprakash8788/-windy-picture-8509/assets/73363392/afd32d66-2e47-482a-b3a8-91db79e8774d)
 
