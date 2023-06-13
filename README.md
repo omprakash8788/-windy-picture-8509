@@ -1,40 +1,40 @@
 
-It's an E-commerce shopping web application with all the major functionalities
+## It's an E-commerce shopping web application with all the major functionalities
 
-html,
-css3,
-JavaScript,
-restAPI
+- html
+- css3
+- JavaScript
+- restAPI
 
-Want to see live preview https://violetbeaute.netlify.app/
+## Want to see live preview https://violetbeaute.netlify.app/
 
 Violet Beaute is an e-commerce product-based web application. It has a variety of categories, just visit the products listing page, trending primer page or shampoo page and you will see all the products available, apply sorting, filter and search as per your need and in just a few clicks you can order products from the website.
 
 ![Screenshot (1872)](https://github.com/omprakash8788/-windy-picture-8509/assets/73363392/afd32d66-2e47-482a-b3a8-91db79e8774d)
 
 
-Screens ( Shampoo, Primer screens are responsive)
+# Screens ( Shampoo, Primer screens are responsive)
 
-Homepage,
- Shampoo and Primer page with Sorting Filters Search,
- Cart page,
- Payment page,
- Admin Panel,
- Signup, Login / Logout
-
-
-🚀 Features
-
-Signup, Login User Account,
- Login Admin Account,
- Products Sorting Based on Price,
- Products Search,
- Cart Add,
- Shipping Address,
- Payment gatway,
+- Homepage
+- Shampoo and Primer page with Sorting Filters Search
+- Cart page
+- Payment page
+- Admin Panel
+- Signup, Login / Logout
 
 
-Glimpses of Violet Beaute 🙈 :
+🚀## Features
+
+- Signup, Login User Account,
+- Login Admin Account,
+- Products Sorting Based on Price,
+- Products Search,
+- Cart Add,
+- Shipping Address,
+- Payment gatway,
+
+
+## Glimpses of Violet Beaute 🙈 :
 
 ![Screenshot (1881)](https://github.com/omprakash8788/-windy-picture-8509/assets/73363392/605855a0-88de-4697-b93c-7e79b3784e12)
 ![Screenshot (1886)](https://github.com/omprakash8788/-windy-picture-8509/assets/73363392/4cf622ee-4892-484e-ae18-9ddb2e1aafb6)
@@ -47,15 +47,15 @@ Glimpses of Violet Beaute 🙈 :
 
 
 
-Demo Video
+## Demo Video
 
 https://drive.google.com/file/d/1oGo9dwNuxuz3pGu0vDlvLlpc3lI969tY/view?usp=sharing
 
-Getting Started
+## Getting Started
 
 This project was built using HTML5, CSS3, JavaScript, Rest API. It is an e-commerce products based web application and for running on your local environment you should follow these guidelines.
 
-Setup
+# Setup
 
 The project repository can be found in GitHub or just clone the project using this command.
 
@@ -65,13 +65,13 @@ Using HTTPS
 
 https://github.com/omprakash8788/-windy-picture-8509
 
-Install
+# Install
 
 To run the application open index.html in the live server.
 
-Tools used on this project
+# Tools used on this project
 
 Visual Studio Code
 
-Show your support
-Give a ⭐️ if you like this project!
+# Show your support
+# Give a ⭐️ if you like this project!
